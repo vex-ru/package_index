@@ -1,41 +1,93 @@
-name: Mirror Arduino Package Index
+name: Mirror AVR Cores to Repo
 
 on:
   schedule:
-    # Запускается каждый день в 03:00 по UTC (можно изменить время)
-    - cron: '0 3 * * *'
-  workflow_dispatch: # Позволяет запускать скрипт вручную из интерфейса GitHub
+    # Запускается каждый день в 04:00 по UTC
+    - cron: '0 4 * * *'
+  workflow_dispatch: # Позволяет запустить вручную
 
 jobs:
-  mirror:
+  mirror-avr:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # Разрешение на запись в репозиторий для пуша коммитов
+      contents: write # Разрешение на запись в репозиторий
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Download package_index.json
+      - name: Download official package_index.json
         run: |
-          # Скачиваем официальный индекс Arduino
           curl -fsSL -o package_index.json https://downloads.arduino.cc/packages/package_index.json
-          
-          # Если вам нужны и другие индексы (например, ESP32 или ESP8266), 
-          # раскомментируйте и добавьте их ниже:
-          # curl -fsSL -o package_esp32_index.json https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
 
-      - name: Commit and push if changed
+      - name: Process AVR cores and rewrite URLs
+        env:
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_REF_NAME: ${{ github.ref_name }}
+        run: |
+          python3 << 'EOF'
+          import json
+          import os
+          import urllib.request
+
+          # Загружаем индекс
+          with open('package_index.json', 'r', encoding='utf-8') as f:
+              data = json.load(f)
+
+          repo = os.environ.get('GITHUB_REPOSITORY', 'owner/repo')
+          branch = os.environ.get('GITHUB_REF_NAME', 'main')
+          base_raw_url = f"https://raw.githubusercontent.com/{repo}/{branch}/cores/"
+
+          os.makedirs('cores', exist_ok=True)
+          modified = False
+
+          for package in data.get('packages', []):
+              for platform in package.get('platforms', []):
+                  # Фильтруем только AVR архитектуры
+                  if platform.get('architecture') == 'avr':
+                      archive_file = platform.get('archiveFileName')
+                      current_url = platform.get('url', '')
+
+                      # Если ссылка еще не ведет на наш репозиторий
+                      if archive_file and not current_url.startswith(base_raw_url):
+                          original_url = current_url
+                          local_path = os.path.join('cores', archive_file)
+                          
+                          # Скачиваем файл, если его еще нет в репозитории
+                          if not os.path.exists(local_path):
+                              print(f"Скачивание: {archive_file}")
+                              req = urllib.request.Request(original_url, headers={'User-Agent': 'Mozilla/5.0'})
+                              try:
+                                  with urllib.request.urlopen(req, timeout=60) as response, open(local_path, 'wb') as out_file:
+                                      out_file.write(response.read())
+                              except Exception as e:
+                                  print(f"Ошибка скачивания {archive_file}: {e}")
+                          
+                          # Переписываем URL на ссылку нашего GitHub репозитория
+                          platform['url'] = f"{base_raw_url}{archive_file}"
+                          modified = True
+
+          # Сохраняем обновленный JSON
+          with open('package_index.json', 'w', encoding='utf-8') as f:
+              json.dump(data, f, indent=2)
+
+          # Передаем флаг изменения в GitHub Actions
+          with open(os.environ['GITHUB_ENV'], 'a') as f:
+              f.write(f"MODIFIED={str(modified).lower()}\n")
+          EOF
+
+      - name: Commit and push changes
+        if: env.MODIFIED == 'true'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add package_index.json
           
-          # Проверяем, есть ли реальные изменения в файле
+          git add cores/ package_index.json
+          
           if ! git diff --cached --quiet; then
-            git commit -m "chore: update package_index.json ($(date +'%Y-%m-%d'))"
+            git commit -m "chore: mirror AVR cores and update package_index.json URLs"
             git push
-            echo "✅ Файл обновлен и закоммичен."
+            echo "✅ Файлы ядер и обновленный JSON успешно загружены в репозиторий."
           else
-            echo "ℹ️ Изменений в файле нет, коммит не требуется."
+            echo "ℹ️ Изменений нет, коммит не требуется."
           fi
