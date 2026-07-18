@@ -14,7 +14,7 @@
           "architecture": "avr",
           "version": "1.8.8",
           "category": "Arduino",
-          "url": "https://downloads.arduino.cc/cores/staging/avr-1.8.8.tar.bz2",
+          "url": "https://raw.githubusercontent.com/vex-ru/package_index/main/cores/avr-1.8.8.tar.bz2",
           "archiveFileName": "avr-1.8.8.tar.bz2",
           "checksum": "SHA-256:a234c2a43dcd01ce54be665806f183b8e6ec4e966d2e3e0c3358b63023d6390c",
           "size": "7162150",
@@ -23,7 +23,7 @@
           },
           "boards": [
             {
-              "name": "Arduino Yún"
+              "name": "Arduino Y\u00fan"
             },
             {
               "name": "Arduino UNO"
@@ -95,7 +95,7 @@
               "name": "Adafruit Circuit Playground"
             },
             {
-              "name": "Arduino Yún Mini"
+              "name": "Arduino Y\u00fan Mini"
             },
             {
               "name": "Arduino Industrial 101"
@@ -127,7 +127,7 @@
           "architecture": "avr",
           "version": "1.8.7",
           "category": "Arduino",
-          "url": "https://downloads.arduino.cc/cores/staging/avr-1.8.7.tar.bz2",
+          "url": "https://raw.githubusercontent.com/vex-ru/package_index/main/cores/avr-1.8.7.tar.bz2",
           "archiveFileName": "avr-1.8.7.tar.bz2",
           "checksum": "SHA-256:6ae7000b1b6c004c4a208d6d924a8046b417580e4a10cfd3f88930b6660a51db",
           "size": "7161883",
@@ -136,7 +136,7 @@
           },
           "boards": [
             {
-              "name": "Arduino Yún"
+              "name": "Arduino Y\u00fan"
             },
             {
               "name": "Arduino UNO"
@@ -208,7 +208,7 @@
               "name": "Adafruit Circuit Playground"
             },
             {
-              "name": "Arduino Yún Mini"
+              "name": "Arduino Y\u00fan Mini"
             },
             {
               "name": "Arduino Industrial 101"
@@ -240,7 +240,7 @@
           "architecture": "avr",
           "version": "1.8.6",
           "category": "Arduino",
-          "url": "https://downloads.arduino.cc/cores/staging/avr-1.8.6.tar.bz2",
+          "url": "https://raw.githubusercontent.com/vex-ru/package_index/main/cores/avr-1.8.6.tar.bz2",
           "archiveFileName": "avr-1.8.6.tar.bz2",
           "checksum": "SHA-256:ff1d17274b5a952f172074bd36c3924336baefded0232e10982f8999c2f7c3b6",
           "size": "7127080",
@@ -249,7 +249,7 @@
           },
           "boards": [
             {
-              "name": "Arduino Yún"
+              "name": "Arduino Y\u00fan"
             },
             {
               "name": "Arduino UNO"
@@ -321,7 +321,7 @@
               "name": "Adafruit Circuit Playground"
             },
             {
-              "name": "Arduino Yún Mini"
+              "name": "Arduino Y\u00fan Mini"
             },
             {
               "name": "Arduino Industrial 101"
@@ -353,7 +353,7 @@
           "architecture": "avr",
           "version": "1.8.5",
           "category": "Arduino",
-          "url": "https://downloads.arduino.cc/cores/staging/avr-1.8.5.tar.bz2",
+          "url": "https://raw.githubusercontent.com/vex-ru/package_index/main/cores/avr-1.8.5.tar.bz2",
           "archiveFileName": "avr-1.8.5.tar.bz2",
           "checksum": "SHA-256:ca22143a3f5d32c4b693211d99aedce358e2e0a2ab90a58c05d3afc1b56436a4",
           "size": "7160121",
@@ -362,7 +362,7 @@
           },
           "boards": [
             {
-              "name": "Arduino Yún"
+              "name": "Arduino Y\u00fan"
             },
             {
               "name": "Arduino UNO"
@@ -434,7 +434,7 @@
               "name": "Adafruit Circuit Playground"
             },
             {
-              "name": "Arduino Yún Mini"
+              "name": "Arduino Y\u00fan Mini"
             },
             {
               "name": "Arduino Industrial 101"
@@ -466,7 +466,7 @@
           "architecture": "avr",
           "version": "1.8.4",
           "category": "Arduino",
-          "url": "https://downloads.arduino.cc/cores/avr-1.8.4.tar.bz2",
+          "url": "https://raw.githubusercontent.com/vex-ru/package_index/main/cores/avr-1.8.4.tar.bz2",
           "archiveFileName": "avr-1.8.4.tar.bz2",
           "checksum": "SHA-256:fa7a119650854ced2b34596ebba0e39822369ef1c61be3bc21e36d39c6c84c3f",
           "size": "4940789",
@@ -475,7 +475,7 @@
           },
           "boards": [
             {
-              "name": "Arduino Yún"
+              "name": "Arduino Y\u00fan"
             },
             {
               "name": "Arduino UNO"
@@ -547,7 +547,7 @@
               "name": "Adafruit Circuit Playground"
             },
             {
-              "name": "Arduino Yún Mini"
+              "name": "Arduino Y\u00fan Mini"
             },
             {
               "name": "Arduino Industrial 101"
@@ -579,7 +579,7 @@
           "architecture": "avr",
           "version": "1.8.3",
           "category": "Arduino",
-          "url": "https://downloads.arduino.cc/cores/avr-1.8.3.tar.bz2",
+          "url": "https://raw.githubusercontent.com/vex-ru/package_index/main/cores/avr-1.8.3.tar.bz2",
           "archiveFileName": "avr-1.8.3.tar.bz2",
           "checksum": "SHA-256:de8a9b982477762d3d3e52fc2b682cdd8ff194dc3f1d46f4debdea6a01b33c14",
           "size": "4941548",
@@ -588,7 +588,7 @@
           },
           "boards": [
             {
-              "name": "Arduino Yún"
+              "name": "Arduino Y\u00fan"
             },
             {
               "name": "Arduino UNO"
@@ -657,7 +657,7 @@
               "name": "Adafruit Circuit Playground"
             },
             {
-              "name": "Arduino Yún Mini"
+              "name": "Arduino Y\u00fan Mini"
             },
             {
               "name": "Arduino Industrial 101"
@@ -689,7 +689,7 @@
           "architecture": "avr",
           "version": "1.8.2",
           "category": "Arduino",
-          "url": "https://downloads.arduino.cc/cores/avr-1.8.2.tar.bz2",
+          "url": "https://raw.githubusercontent.com/vex-ru/package_index/main/cores/avr-1.8.2.tar.bz2",
           "archiveFileName": "avr-1.8.2.tar.bz2",
           "checksum": "SHA-256:6213d41c6e91a75ac931527da5b10f2dbe0140c8cc1dd41b06cd4e78b943f41b",
           "size": "4918242",
@@ -698,7 +698,7 @@
           },
           "boards": [
             {
-              "name": "Arduino Yún"
+              "name": "Arduino Y\u00fan"
             },
             {
               "name": "Arduino UNO"
@@ -767,7 +767,7 @@
               "name": "Adafruit Circuit Playground"
             },
             {
-              "name": "Arduino Yún Mini"
+              "name": "Arduino Y\u00fan Mini"
             },
             {
               "name": "Arduino Industrial 101"
@@ -799,7 +799,7 @@
           "architecture": "avr",
           "version": "1.8.1",
           "category": "Arduino",
-          "url": "https://downloads.arduino.cc/cores/avr-1.8.1.tar.bz2",
+          "url": "https://raw.githubusercontent.com/vex-ru/package_index/main/cores/avr-1.8.1.tar.bz2",
           "archiveFileName": "avr-1.8.1.tar.bz2",
           "checksum": "SHA-256:4791a52fd058f72557af333abc2dea564c8be47fb38fbd7be75ce2fcfdc214b5",
           "size": "4941605",
@@ -808,7 +808,7 @@
           },
           "boards": [
             {
-              "name": "Arduino Yún"
+              "name": "Arduino Y\u00fan"
             },
             {
               "name": "Arduino UNO"
@@ -877,7 +877,7 @@
               "name": "Adafruit Circuit Playground"
             },
             {
-              "name": "Arduino Yún Mini"
+              "name": "Arduino Y\u00fan Mini"
             },
             {
               "name": "Arduino Industrial 101"
@@ -909,7 +909,7 @@
           "architecture": "avr",
           "version": "1.6.23",
           "category": "Arduino",
-          "url": "https://downloads.arduino.cc/cores/avr-1.6.23.tar.bz2",
+          "url": "https://raw.githubusercontent.com/vex-ru/package_index/main/cores/avr-1.6.23.tar.bz2",
           "archiveFileName": "avr-1.6.23.tar.bz2",
           "checksum": "SHA-256:18618d7f256f26cd77c35f4c888d5d1b2334f07925094fdc99ac3188722284aa",
           "size": "5001988",
@@ -918,7 +918,7 @@
           },
           "boards": [
             {
-              "name": "Arduino Yún"
+              "name": "Arduino Y\u00fan"
             },
             {
               "name": "Arduino UNO"
@@ -987,7 +987,7 @@
               "name": "Adafruit Circuit Playground"
             },
             {
-              "name": "Arduino Yún Mini"
+              "name": "Arduino Y\u00fan Mini"
             },
             {
               "name": "Arduino Industrial 101"
@@ -1019,7 +1019,7 @@
           "architecture": "avr",
           "version": "1.6.22",
           "category": "Arduino",
-          "url": "https://downloads.arduino.cc/cores/avr-1.6.22.tar.bz2",
+          "url": "https://raw.githubusercontent.com/vex-ru/package_index/main/cores/avr-1.6.22.tar.bz2",
           "archiveFileName": "avr-1.6.22.tar.bz2",
           "checksum": "SHA-256:e6399b2a687dd8485cbbfcbfbbd4f8e2e15fe535bbcfd1d81bf93d01e31f7d76",
           "size": "4907422",
@@ -1028,7 +1028,7 @@
           },
           "boards": [
             {
-              "name": "Arduino Yún"
+              "name": "Arduino Y\u00fan"
             },
             {
               "name": "Arduino UNO"
@@ -1097,7 +1097,7 @@
               "name": "Adafruit Circuit Playground"
             },
             {
-              "name": "Arduino Yún Mini"
+              "name": "Arduino Y\u00fan Mini"
             },
             {
               "name": "Arduino Industrial 101"
@@ -1129,7 +1129,7 @@
           "architecture": "avr",
           "version": "1.6.21",
           "category": "Arduino",
-          "url": "https://downloads.arduino.cc/cores/avr-1.6.21.tar.bz2",
+          "url": "https://raw.githubusercontent.com/vex-ru/package_index/main/cores/avr-1.6.21.tar.bz2",
           "archiveFileName": "avr-1.6.21.tar.bz2",
           "checksum": "SHA-256:7e5440b0902733f82956c89e554106f25c2ad540ac36286ccba3ceac785bcbba",
           "size": "4897460",
@@ -1138,7 +1138,7 @@
           },
           "boards": [
             {
-              "name": "Arduino Yún"
+              "name": "Arduino Y\u00fan"
             },
             {
               "name": "Arduino UNO"
@@ -1207,7 +1207,7 @@
               "name": "Adafruit Circuit Playground"
             },
             {
-              "name": "Arduino Yún Mini"
+              "name": "Arduino Y\u00fan Mini"
             },
             {
               "name": "Arduino Industrial 101"
@@ -1239,7 +1239,7 @@
           "architecture": "avr",
           "version": "1.6.20",
           "category": "Arduino",
-          "url": "https://downloads.arduino.cc/cores/avr-1.6.20.tar.bz2",
+          "url": "https://raw.githubusercontent.com/vex-ru/package_index/main/cores/avr-1.6.20.tar.bz2",
           "archiveFileName": "avr-1.6.20.tar.bz2",
           "checksum": "SHA-256:61f3d59a2ab2e9191230e91e79ee91c05f32b32c33129d34d76ef87e56d257e1",
           "size": "4897949",
@@ -1248,7 +1248,7 @@
           },
           "boards": [
             {
-              "name": "Arduino Yún"
+              "name": "Arduino Y\u00fan"
             },
             {
               "name": "Arduino UNO"
@@ -1317,7 +1317,7 @@
               "name": "Adafruit Circuit Playground"
             },
             {
-              "name": "Arduino Yún Mini"
+              "name": "Arduino Y\u00fan Mini"
             },
             {
               "name": "Arduino Industrial 101"
@@ -1349,7 +1349,7 @@
           "architecture": "avr",
           "version": "1.6.19",
           "category": "Arduino",
-          "url": "https://downloads.arduino.cc/cores/avr-1.6.19.tar.bz2",
+          "url": "https://raw.githubusercontent.com/vex-ru/package_index/main/cores/avr-1.6.19.tar.bz2",
           "archiveFileName": "avr-1.6.19.tar.bz2",
           "checksum": "SHA-256:1c544db39f36a8468f585d6338343718c2892526227fa04805339084dd0ab4ff",
           "size": "4959420",
@@ -1358,7 +1358,7 @@
           },
           "boards": [
             {
-              "name": "Arduino Yún"
+              "name": "Arduino Y\u00fan"
             },
             {
               "name": "Arduino UNO"
@@ -1427,7 +1427,7 @@
               "name": "Adafruit Circuit Playground"
             },
             {
-              "name": "Arduino Yún Mini"
+              "name": "Arduino Y\u00fan Mini"
             },
             {
               "name": "Arduino Industrial 101"
@@ -1459,7 +1459,7 @@
           "architecture": "avr",
           "version": "1.6.18",
           "category": "Arduino",
-          "url": "https://downloads.arduino.cc/cores/avr-1.6.18.tar.bz2",
+          "url": "https://raw.githubusercontent.com/vex-ru/package_index/main/cores/avr-1.6.18.tar.bz2",
           "archiveFileName": "avr-1.6.18.tar.bz2",
           "checksum": "SHA-256:7c56e381602b779e8e81ec46deb5c8b82e1c84c134c3c1b672d0b43f5e45ee13",
           "size": "4897659",
@@ -1468,7 +1468,7 @@
           },
           "boards": [
             {
-              "name": "Arduino Yún"
+              "name": "Arduino Y\u00fan"
             },
             {
               "name": "Arduino UNO"
@@ -1537,7 +1537,7 @@
               "name": "Adafruit Circuit Playground"
             },
             {
-              "name": "Arduino Yún Mini"
+              "name": "Arduino Y\u00fan Mini"
             },
             {
               "name": "Arduino Industrial 101"
@@ -1569,7 +1569,7 @@
           "architecture": "avr",
           "version": "1.6.17",
           "category": "Arduino",
-          "url": "https://downloads.arduino.cc/cores/avr-1.6.17.tar.bz2",
+          "url": "https://raw.githubusercontent.com/vex-ru/package_index/main/cores/avr-1.6.17.tar.bz2",
           "archiveFileName": "avr-1.6.17.tar.bz2",
           "checksum": "SHA-256:ecf63bb02d8f647f720be64b4bf235e0ca37b3180b90d816cbff1886f6744833",
           "size": "5011912",
@@ -1578,7 +1578,7 @@
           },
           "boards": [
             {
-              "name": "Arduino Yún"
+              "name": "Arduino Y\u00fan"
             },
             {
               "name": "Arduino UNO"
@@ -1647,7 +1647,7 @@
               "name": "Adafruit Circuit Playground"
             },
             {
-              "name": "Arduino Yún Mini"
+              "name": "Arduino Y\u00fan Mini"
             },
             {
               "name": "Arduino Industrial 101"
@@ -1679,7 +1679,7 @@
           "architecture": "avr",
           "version": "1.6.16",
           "category": "Arduino",
-          "url": "https://downloads.arduino.cc/cores/avr-1.6.16.tar.bz2",
+          "url": "https://raw.githubusercontent.com/vex-ru/package_index/main/cores/avr-1.6.16.tar.bz2",
           "archiveFileName": "avr-1.6.16.tar.bz2",
           "checksum": "SHA-256:2e2e7a7b8ec321b62c54237e8cb03384fc434f3692c47a524e23e61df868ed9a",
           "size": "5011829",
@@ -1688,7 +1688,7 @@
           },
           "boards": [
             {
-              "name": "Arduino Yún"
+              "name": "Arduino Y\u00fan"
             },
             {
               "name": "Arduino UNO"
@@ -1757,7 +1757,7 @@
               "name": "Adafruit Circuit Playground"
             },
             {
-              "name": "Arduino Yún Mini"
+              "name": "Arduino Y\u00fan Mini"
             },
             {
               "name": "Arduino Industrial 101"
@@ -1789,7 +1789,7 @@
           "architecture": "avr",
           "version": "1.6.15",
           "category": "Arduino",
-          "url": "https://downloads.arduino.cc/cores/avr-1.6.15.tar.bz2",
+          "url": "https://raw.githubusercontent.com/vex-ru/package_index/main/cores/avr-1.6.15.tar.bz2",
           "archiveFileName": "avr-1.6.15.tar.bz2",
           "checksum": "SHA-256:c222efcabbdf6fa63ba3d64afb8d149f83fa73693c413aa05a2ccd9f986ed2fa",
           "size": "4993959",
@@ -1798,7 +1798,7 @@
           },
           "boards": [
             {
-              "name": "Arduino Yún"
+              "name": "Arduino Y\u00fan"
             },
             {
               "name": "Arduino UNO"
@@ -1876,7 +1876,7 @@
           "architecture": "avr",
           "version": "1.6.14",
           "category": "Arduino",
-          "url": "https://downloads.arduino.cc/cores/avr-1.6.14.tar.bz2",
+          "url": "https://raw.githubusercontent.com/vex-ru/package_index/main/cores/avr-1.6.14.tar.bz2",
           "archiveFileName": "avr-1.6.14.tar.bz2",
           "checksum": "SHA-256:a5f7d66c83e3d4722f4c8dab42bdbcf5af98c611ffca1802ef3d1957b894bd92",
           "size": "4993455",
@@ -1885,7 +1885,7 @@
           },
           "boards": [
             {
-              "name": "Arduino Yún"
+              "name": "Arduino Y\u00fan"
             },
             {
               "name": "Arduino UNO"
@@ -1963,7 +1963,7 @@
           "architecture": "avr",
           "version": "1.6.13",
           "category": "Arduino",
-          "url": "https://downloads.arduino.cc/cores/avr-1.6.13.tar.bz2",
+          "url": "https://raw.githubusercontent.com/vex-ru/package_index/main/cores/avr-1.6.13.tar.bz2",
           "archiveFileName": "avr-1.6.13.tar.bz2",
           "checksum": "SHA-256:617f458dd3507072b9a6f9fdc78888c66aa420a2fb081c4c1556598a2d69d643",
           "size": "4993644",
@@ -1972,7 +1972,7 @@
           },
           "boards": [
             {
-              "name": "Arduino Yún"
+              "name": "Arduino Y\u00fan"
             },
             {
               "name": "Arduino UNO"
@@ -2050,7 +2050,7 @@
           "architecture": "avr",
           "version": "1.6.12",
           "category": "Arduino",
-          "url": "https://downloads.arduino.cc/cores/avr-1.6.12.tar.bz2",
+          "url": "https://raw.githubusercontent.com/vex-ru/package_index/main/cores/avr-1.6.12.tar.bz2",
           "archiveFileName": "avr-1.6.12.tar.bz2",
           "checksum": "SHA-256:4a296a3304a51d820e680e2022fb9b9f5706144abf1e5d60c7876a0f9fc7e6d9",
           "size": "4993586",
@@ -2059,7 +2059,7 @@
           },
           "boards": [
             {
-              "name": "Arduino Yún"
+              "name": "Arduino Y\u00fan"
             },
             {
               "name": "Arduino UNO"
@@ -2137,7 +2137,7 @@
           "architecture": "avr",
           "version": "1.6.11",
           "category": "Arduino",
-          "url": "https://downloads.arduino.cc/cores/avr-1.6.11.tar.bz2",
+          "url": "https://raw.githubusercontent.com/vex-ru/package_index/main/cores/avr-1.6.11.tar.bz2",
           "archiveFileName": "avr-1.6.11.tar.bz2",
           "checksum": "SHA-256:5292d3559de74eb990ff570df43887b44d4e3c6b80ab4ab0f945e94dd68d8210",
           "size": "4991634",
@@ -2146,7 +2146,7 @@
           },
           "boards": [
             {
-              "name": "Arduino Yún"
+              "name": "Arduino Y\u00fan"
             },
             {
               "name": "Arduino UNO"
@@ -2224,7 +2224,7 @@
           "architecture": "avr",
           "version": "1.6.10",
           "category": "Arduino",
-          "url": "https://downloads.arduino.cc/cores/avr-1.6.10.tar.bz2",
+          "url": "https://raw.githubusercontent.com/vex-ru/package_index/main/cores/avr-1.6.10.tar.bz2",
           "archiveFileName": "avr-1.6.10.tar.bz2",
           "checksum": "SHA-256:92cad999335198f875bdaec5de0169991bee19e0058c623d2cdd0835bb26eeaa",
           "size": "4991331",
@@ -2233,7 +2233,7 @@
           },
           "boards": [
             {
-              "name": "Arduino Yún"
+              "name": "Arduino Y\u00fan"
             },
             {
               "name": "Arduino UNO"
@@ -2311,7 +2311,7 @@
           "architecture": "avr",
           "version": "1.6.9",
           "category": "Arduino",
-          "url": "https://downloads.arduino.cc/cores/avr-1.6.9.tar.bz2",
+          "url": "https://raw.githubusercontent.com/vex-ru/package_index/main/cores/avr-1.6.9.tar.bz2",
           "archiveFileName": "avr-1.6.9.tar.bz2",
           "checksum": "SHA-256:eb8bc661162bc689b3ed02c4d24f6ff964e91ace890b7d3db2e316c84ba235f0",
           "size": "4890702",
@@ -2320,7 +2320,7 @@
           },
           "boards": [
             {
-              "name": "Arduino Yún"
+              "name": "Arduino Y\u00fan"
             },
             {
               "name": "Arduino UNO"
@@ -2398,7 +2398,7 @@
           "architecture": "avr",
           "version": "1.6.8",
           "category": "Arduino",
-          "url": "https://downloads.arduino.cc/cores/avr-1.6.8.tar.bz2",
+          "url": "https://raw.githubusercontent.com/vex-ru/package_index/main/cores/avr-1.6.8.tar.bz2",
           "archiveFileName": "avr-1.6.8.tar.bz2",
           "checksum": "SHA-256:0e0775347baf0d93ef344bcd851e7d8d0af2bda7916c119fa3a4ff9b984c575b",
           "size": "4885536",
@@ -2407,7 +2407,7 @@
           },
           "boards": [
             {
-              "name": "Arduino Yún"
+              "name": "Arduino Y\u00fan"
             },
             {
               "name": "Arduino UNO"
@@ -2485,7 +2485,7 @@
           "architecture": "avr",
           "version": "1.6.7",
           "category": "Arduino",
-          "url": "https://downloads.arduino.cc/cores/avr-1.6.7.tar.bz2",
+          "url": "https://raw.githubusercontent.com/vex-ru/package_index/main/cores/avr-1.6.7.tar.bz2",
           "archiveFileName": "avr-1.6.7.tar.bz2",
           "checksum": "SHA-256:e112992c59c0d826db9a63967679854a96b3c7b970f788a03834e211f6390caa",
           "size": "4904283",
@@ -2494,7 +2494,7 @@
           },
           "boards": [
             {
-              "name": "Arduino Yún"
+              "name": "Arduino Y\u00fan"
             },
             {
               "name": "Arduino UNO"
@@ -2572,7 +2572,7 @@
           "architecture": "avr",
           "version": "1.6.6",
           "category": "Arduino",
-          "url": "https://downloads.arduino.cc/cores/avr-1.6.6.tar.bz2",
+          "url": "https://raw.githubusercontent.com/vex-ru/package_index/main/cores/avr-1.6.6.tar.bz2",
           "archiveFileName": "avr-1.6.6.tar.bz2",
           "checksum": "SHA-256:08ad5db4978ebea22344edc5d77dce0923d8a644da7a14dc8072e883c76058d8",
           "size": "4876916",
@@ -2581,7 +2581,7 @@
           },
           "boards": [
             {
-              "name": "Arduino Yún"
+              "name": "Arduino Y\u00fan"
             },
             {
               "name": "Arduino UNO"
@@ -2656,7 +2656,7 @@
           "architecture": "avr",
           "version": "1.6.5",
           "category": "Arduino",
-          "url": "https://downloads.arduino.cc/cores/avr-1.6.5.tar.bz2",
+          "url": "https://raw.githubusercontent.com/vex-ru/package_index/main/cores/avr-1.6.5.tar.bz2",
           "archiveFileName": "avr-1.6.5.tar.bz2",
           "checksum": "SHA-256:c72d890aa605add677634c6b25ebc3b2ed9e44c38805b95c47eab17a1ca72db6",
           "size": "4876957",
@@ -2665,7 +2665,7 @@
           },
           "boards": [
             {
-              "name": "Arduino Yún"
+              "name": "Arduino Y\u00fan"
             },
             {
               "name": "Arduino UNO"
@@ -2740,7 +2740,7 @@
           "architecture": "avr",
           "version": "1.6.4",
           "category": "Arduino",
-          "url": "https://downloads.arduino.cc/cores/avr-1.6.4.tar.bz2",
+          "url": "https://raw.githubusercontent.com/vex-ru/package_index/main/cores/avr-1.6.4.tar.bz2",
           "archiveFileName": "avr-1.6.4.tar.bz2",
           "checksum": "SHA-256:8a243410aeded6dbcbc4b134ba10be5c2562d137bfcf3ac97abdc5844933b363",
           "size": "4780884",
@@ -2749,7 +2749,7 @@
           },
           "boards": [
             {
-              "name": "Arduino Yún"
+              "name": "Arduino Y\u00fan"
             },
             {
               "name": "Arduino UNO"
@@ -2824,7 +2824,7 @@
           "architecture": "avr",
           "version": "1.6.3",
           "category": "Arduino",
-          "url": "https://downloads.arduino.cc/cores/avr-1.6.3.tar.bz2",
+          "url": "https://raw.githubusercontent.com/vex-ru/package_index/main/cores/avr-1.6.3.tar.bz2",
           "archiveFileName": "avr-1.6.3.tar.bz2",
           "checksum": "SHA-256:c30033ba70cbb2d46ee0901a331b0f83be082f9110eda0464b624fdbb51b3c7b",
           "size": "4876816",
@@ -2833,7 +2833,7 @@
           },
           "boards": [
             {
-              "name": "Arduino Yún"
+              "name": "Arduino Y\u00fan"
             },
             {
               "name": "Arduino UNO"
@@ -2908,13 +2908,13 @@
           "architecture": "avr",
           "version": "1.6.2",
           "category": "Arduino",
-          "url": "https://downloads.arduino.cc/cores/avr-1.6.2.tar.bz2",
+          "url": "https://raw.githubusercontent.com/vex-ru/package_index/main/cores/avr-1.6.2.tar.bz2",
           "archiveFileName": "avr-1.6.2.tar.bz2",
           "checksum": "SHA-256:2909a4c6dd6d7497e7e1b5fcaa2f66a100271417510f3a68593b65af8ff78c1c",
           "size": "4877442",
           "boards": [
             {
-              "name": "Arduino Yún"
+              "name": "Arduino Y\u00fan"
             },
             {
               "name": "Arduino UNO"
@@ -26794,7 +26794,7 @@
           "architecture": "avr",
           "version": "0.6.0",
           "category": "Partner",
-          "url": "https://github.com/AtmelUniversityFrance/atmel-avr-xmini-boardmanagermodule/releases/download/v0.6.0/atmel-avr-xmini-boardmanagermodule-0.6.0.tar.bz2",
+          "url": "https://raw.githubusercontent.com/vex-ru/package_index/main/cores/atmel-avr-xmini-boardmanagermodule-0.6.0.tar.bz2",
           "archiveFileName": "atmel-avr-xmini-boardmanagermodule-0.6.0.tar.bz2",
           "checksum": "SHA-256:60bcb315a33056fac9b1d626ac039b3439efdae821ba91b70e09dc5ce8e07f88",
           "size": "95447",
@@ -26822,7 +26822,7 @@
           "architecture": "avr",
           "version": "0.5.0",
           "category": "Partner",
-          "url": "https://github.com/AtmelUniversityFrance/atmel-avr-xmini-boardmanagermodule/releases/download/v0.5.0/atmel-avr-xmini-boardmanagermodule-0.5.0.tar.bz2",
+          "url": "https://raw.githubusercontent.com/vex-ru/package_index/main/cores/atmel-avr-xmini-boardmanagermodule-0.5.0.tar.bz2",
           "archiveFileName": "atmel-avr-xmini-boardmanagermodule-0.5.0.tar.bz2",
           "checksum": "SHA-256:e2e401fc30f8e8519bcd628884699373dc386d83a366c740b1895aa9b8cc30f4",
           "size": "95573",
@@ -26844,7 +26844,7 @@
           "architecture": "avr",
           "version": "0.4.0",
           "category": "Partner",
-          "url": "https://github.com/AtmelUniversityFrance/atmel-avr-xmini-boardmanagermodule/releases/download/v0.4.0/atmel-avr-xmini-boardmanagermodule-0.4.0.tar.bz2",
+          "url": "https://raw.githubusercontent.com/vex-ru/package_index/main/cores/atmel-avr-xmini-boardmanagermodule-0.4.0.tar.bz2",
           "archiveFileName": "atmel-avr-xmini-boardmanagermodule-0.4.0.tar.bz2",
           "checksum": "SHA-256:36e09208c91071ff2fce4a7ed06463cf820c867d9f59477192d18965c0830ed5",
           "size": "95452",
@@ -26866,7 +26866,7 @@
           "architecture": "avr",
           "version": "0.3.0",
           "category": "Partner",
-          "url": "https://github.com/AtmelUniversityFrance/atmel-avr-xmini-boardmanagermodule/releases/download/v0.3.0/atmel-avr-xmini-boardmanagermodule-0.3.0.tar.bz2",
+          "url": "https://raw.githubusercontent.com/vex-ru/package_index/main/cores/atmel-avr-xmini-boardmanagermodule-0.3.0.tar.bz2",
           "archiveFileName": "atmel-avr-xmini-boardmanagermodule-0.3.0.tar.bz2",
           "checksum": "SHA-256:3bf7739682bdd86c8e8e566769429e424859f23022664295f800df489c782f18",
           "size": "95352",
@@ -26912,7 +26912,7 @@
           "architecture": "avr",
           "version": "3.2.2",
           "category": "Arduino@Heart",
-          "url": "https://downloads.arduino.cc/cores/EMoRo_2560-3.2.2.zip",
+          "url": "https://raw.githubusercontent.com/vex-ru/package_index/main/cores/EMoRo_2560-3.2.2.zip",
           "archiveFileName": "EMoRo_2560-3.2.2.zip",
           "checksum": "SHA-256:c67e6660af44c923c10deede252f9c46dabaf5b61d6e44f3785be688f1c9b46f",
           "size": "565744",
@@ -26929,7 +26929,7 @@
           "architecture": "avr",
           "version": "3.2.1",
           "category": "Arduino@Heart",
-          "url": "https://downloads.arduino.cc/cores/EMoRo_2560-3.2.1.zip",
+          "url": "https://raw.githubusercontent.com/vex-ru/package_index/main/cores/EMoRo_2560-3.2.1.zip",
           "archiveFileName": "EMoRo_2560-3.2.1.zip",
           "checksum": "SHA-256:56dd308fc2f84229688f6219a4c31629ec9b38bdadcd382c45fae9247b94f051",
           "size": "846444",
@@ -40138,7 +40138,7 @@
           "architecture": "avr",
           "version": "1.0.0",
           "category": "Arduino@Heart",
-          "url": "https://downloads.arduino.cc/cores/littlebits-avr-1.0.0.tar.bz2",
+          "url": "https://raw.githubusercontent.com/vex-ru/package_index/main/cores/littlebits-avr-1.0.0.tar.bz2",
           "archiveFileName": "littlebits-avr-1.0.0.tar.bz2",
           "checksum": "SHA-256:8B867B8E89718B405231681CF9091F24372FAEF8B5B9FFBFBCF2486E3D9B5324",
           "size": "27762",
@@ -40272,7 +40272,7 @@
           "architecture": "avr",
           "version": "1.0.1",
           "category": "Arduino",
-          "url": "https://downloads.arduino.cc/cores/staging/ozobot-arduino-derived-1.0.1.tar.bz2",
+          "url": "https://raw.githubusercontent.com/vex-ru/package_index/main/cores/ozobot-arduino-derived-1.0.1.tar.bz2",
           "archiveFileName": "ozobot-arduino-derived-1.0.1.tar.bz2",
           "checksum": "SHA-256:fd97cbb27c49127d00d3c14b35e4b713caa3f9dafe03f03bb7255d017cdf5433",
           "size": "25285",
