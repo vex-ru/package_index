@@ -1,0 +1,41 @@
+name: Mirror Arduino Package Index
+
+on:
+  schedule:
+    # Запускается каждый день в 03:00 по UTC (можно изменить время)
+    - cron: '0 3 * * *'
+  workflow_dispatch: # Позволяет запускать скрипт вручную из интерфейса GitHub
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Разрешение на запись в репозиторий для пуша коммитов
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download package_index.json
+        run: |
+          # Скачиваем официальный индекс Arduino
+          curl -fsSL -o package_index.json https://downloads.arduino.cc/packages/package_index.json
+          
+          # Если вам нужны и другие индексы (например, ESP32 или ESP8266), 
+          # раскомментируйте и добавьте их ниже:
+          # curl -fsSL -o package_esp32_index.json https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+
+      - name: Commit and push if changed
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add package_index.json
+          
+          # Проверяем, есть ли реальные изменения в файле
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update package_index.json ($(date +'%Y-%m-%d'))"
+            git push
+            echo "✅ Файл обновлен и закоммичен."
+          else
+            echo "ℹ️ Изменений в файле нет, коммит не требуется."
+          fi
